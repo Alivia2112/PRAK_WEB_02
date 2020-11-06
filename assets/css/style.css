@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 20px 70px;
+}
+nav,
+.overlay {
+  width: 100%;
+  min-height: 500px;
+  background: linear-gradient(rgba(231, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.desktopbackground.org/download/1024x600/2013/06/16/592767_wide-hd-car-rental-wallpapers_2048x1121_h.jpg")
+      fixed,
+    no-repeat;
+  background-size: cover;
+}
+.logo-perusahaan {
+  margin-top: -415px;
+}
+.logo-perusahaan img {
+  width: 70px;
+}
+nav ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  top: -220px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  position: relative;
+  font-size: 17px;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #e3e3e3;
+  font-weight: 400;
+  padding: 7px 0;
+  transition: 0.2s;
+}
+nav ul li a:hover {
+  color: #004a7c;
+}
+.overlay h2 {
+  font-size: 50px;
+  margin-top: -320px;
+  text-align: center;
+  color: #e3e3e3;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.overlay span {
+    font-style: italic;
+  font-weight: 600;
+}
+.deskripsi {
+  margin-top: 75px;
+}
+h4.sub_judul {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  color: #404b69;
+}
+.deskripsi p {
+  margin: 0 150px 0 150px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.gelap {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.daftar_cabang h4.sub_judul, .daftar_cabang ol li {
+    color: #eee;
+}
+.daftar_cabang {
+  background-image: url("https://4.bp.blogspot.com/-pDIWJV8jDsk/WsoC_YGjYpI/AAAAAAAAC50/J1g1j1RYYl8kZVBIynKltjpBOlM--INWACLcBGAs/s1600/BACKGROUND-3.png");
+  margin-top: 55px;
+  background-size: cover;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.daftar_cabang ol {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.paket {
+  margin-top: 55px;
+}
+.paket table {
+  margin-left: 20%;
+  width: 60%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.paket table th {
+  padding: 15px 0;
+  background-color: #f57170;
+  color: #f4eeff;
+  padding: 15px;
+}
+.artikel table,
+th,
+td {
+  border: 3px solid #404b69;
+  padding: 7px 20px;
+  text-align: center;
+  color: #52616b;
+}
+footer {
+  margin-top: 75px;
+  height: 17px;
+  padding: 21px 0;
+  background-color: #112d4e;
+  font-size: 16px;
+  color: #f4eeff;
+}
+footer h4 {
+  margin-left: 10px;
+  float: left;
+  font-weight: 200;
+}
+footer h4 a {
+  text-decoration: none;
+  color: #f4eeff;
+  font-weight: 600;
+}
+footer p {
+  margin-right: 20px;
+  float: right;
+}
